@@ -9,10 +9,10 @@ Public downloads for the **Bakumon** Minecraft server (`play.bakumon.net`).
 
 | What | Link | For |
 |---|---|---|
-| **Modpack (manual install)**, newest version | [Bakumon-Legacy.zip](https://github.com/canikou/Bakumon-Assets/releases/latest/download/Bakumon-Legacy.zip) | Players who can't use CurseForge or Prism |
+| **Modpack (manual install)** | *Coming soon: being prepared* | Players who can't use CurseForge or Prism |
 | **TCG resource pack** (optional backup) | [Bakumon.TCG.Additions.zip](https://github.com/canikou/Bakumon-Assets/releases/download/resourcepack/Bakumon.TCG.Additions.zip) | Only if the server doesn't load it for you |
 
-The link in the first row always gives the **newest** modpack. Version, size and SHA-256 checksum of every file are in
+Version, size and SHA-256 checksum of every file are in
 [`downloads.json`](downloads.json). To check a download on Windows:
 `Get-FileHash .\Bakumon-Legacy.zip -Algorithm SHA256`.
 
