@@ -6,12 +6,18 @@
     "public": true,
     "minecraft": "1.21.1",
     "loader": "Fabric",
-    "file": "Bakumon-Legacy.zip",
-    "url": "https://github.com/canikou/Bakumon-Assets/releases/latest/download/Bakumon-Legacy.zip",
-    "versionUrl": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Legacy.zip",
-    "size": 592384941,
-    "sha256": "78fe07d9e272742825108bbb0fe0b1750abcc5ba91eb972781699228e8c84211",
-    "available": false
+    "prism": {
+      "file": "Bakumon-Official-1.3.1.zip",
+      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Official-1.3.1.zip",
+      "size": 587585203,
+      "sha256": "ef33844566954e20973450289005ab158ef12863297ae3d5030f10cfd9888232"
+    },
+    "legacy": {
+      "file": "Bakumon-Legacy-1.3.1.zip",
+      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Legacy-1.3.1.zip",
+      "size": 587492003,
+      "sha256": "cfd445d7b23d23b89ec078e17d73f1a6234b309b9fd2db107794c57fe9b4e765"
+    }
   },
   "resourcepack": {
     "name": "Bakumon TCG Additions",

@@ -9,12 +9,13 @@ Public downloads for the **Bakumon** Minecraft server (`play.bakumon.net`).
 
 | What | Link | For |
 |---|---|---|
-| **Modpack (manual install)** | *Coming soon: being prepared* | Players who can't use CurseForge or Prism |
+| **Modpack for Prism** (import) | [Bakumon-Official-1.3.1.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Official-1.3.1.zip) | Drag it onto the Prism window |
+| **Modpack for the official launcher** and others | [Bakumon-Legacy-1.3.1.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Legacy-1.3.1.zip) | Extract into `.minecraft` |
 | **TCG resource pack** (optional backup) | [Bakumon.TCG.Additions.zip](https://github.com/canikou/Bakumon-Assets/releases/download/resourcepack/Bakumon.TCG.Additions.zip) | Only if the server doesn't load it for you |
 
 Version, size and SHA-256 checksum of every file are in
 [`downloads.json`](downloads.json). To check a download on Windows:
-`Get-FileHash .\Bakumon-Legacy.zip -Algorithm SHA256`.
+`Get-FileHash .\Bakumon-Official-1.3.1.zip -Algorithm SHA256`.
 
 Older modpack versions stay available under [Releases](https://github.com/canikou/Bakumon-Assets/releases).
 
@@ -25,9 +26,9 @@ Minecraft **1.21.1** with **Fabric**: the Bakumon mods, configs and resource pac
 
 ## For maintainers
 
-- Each modpack version is its own release, `modpack-<version>`, with the file named exactly `Bakumon-Legacy.zip`.
-  The release for the version players should use is marked **Latest**, so the link above never changes.
-  Only mark a version Latest once it is the public version.
+- Each modpack version is its own release, `modpack-<version>`, with the files named `Bakumon-Official-<version>.zip` (Prism) and `Bakumon-Legacy-<version>.zip`.
+  The release for the version players should use is marked **Latest**. The links in the table and in the Discord guides name the
+  version and are updated at every release. Only mark a version Latest once it is the public version.
 - Other downloads sit in fixed releases (for example `resourcepack`) and are never marked Latest.
 - After a release, `downloads.json` and the table above are updated in the same commit.
 - Every modpack zip is checked before publishing (`tools/verify_client_zip.py` in the BakuBot repository): no
