@@ -9,13 +9,13 @@ Public downloads for the **Bakumon** Minecraft server (`play.bakumon.net`).
 
 | What | Link | For |
 |---|---|---|
-| **Modpack for Prism** (import) | [Bakumon-Official-1.3.1.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Official-1.3.1.zip) | Drag it onto the Prism window |
-| **Modpack for the official launcher** and others | [Bakumon-Legacy-1.3.1.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.3.1/Bakumon-Legacy-1.3.1.zip) | Extract into `.minecraft` |
+| **Modpack for Prism** (import) | [Bakumon-Official-1.4.0.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.0/Bakumon-Official-1.4.0.zip) | Drag it onto the Prism window |
+| **Modpack for the official launcher** and others | [Bakumon-Legacy-1.4.0.zip](https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.0/Bakumon-Legacy-1.4.0.zip) | Extract into `.minecraft` |
 | **TCG resource pack** (optional backup) | [Bakumon.TCG.Additions.zip](https://github.com/canikou/Bakumon-Assets/releases/download/resourcepack/Bakumon.TCG.Additions.zip) | Only if the server doesn't load it for you |
 
 Version, size and SHA-256 checksum of every file are in
 [`downloads.json`](downloads.json). To check a download on Windows:
-`Get-FileHash .\Bakumon-Official-1.3.1.zip -Algorithm SHA256`.
+`Get-FileHash .\Bakumon-Official-1.4.0.zip -Algorithm SHA256`.
 
 Older modpack versions stay available under [Releases](https://github.com/canikou/Bakumon-Assets/releases).
 
