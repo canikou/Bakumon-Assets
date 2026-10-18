@@ -2,21 +2,21 @@
   "schema": 1,
   "updated": "2026-10-18",
   "modpack": {
-    "version": "1.4.1",
+    "version": "1.4.1b",
     "public": true,
     "minecraft": "1.21.1",
     "loader": "Fabric",
     "prism": {
-      "file": "Bakumon-Official-1.4.1.zip",
-      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.1/Bakumon-Official-1.4.1.zip",
-      "size": 366733213,
-      "sha256": "2b292890ddedbef46c370d409ae04eb2b7a4031a166212432050c69dc42eab42"
+      "file": "Bakumon-Official-1.4.1b.zip",
+      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.1b/Bakumon-Official-1.4.1b.zip",
+      "size": 366426861,
+      "sha256": "7a1114affcadbba0be52faf99a34b9553436edadcfeed3a44c1182c8800c0e79"
     },
     "legacy": {
-      "file": "Bakumon-Legacy-1.4.1.zip",
-      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.1/Bakumon-Legacy-1.4.1.zip",
-      "size": 366639545,
-      "sha256": "41d6ed58ba224975212a76c39aba39c055d41338efabb4fbb17271e350b8ddd9"
+      "file": "Bakumon-Legacy-1.4.1b.zip",
+      "url": "https://github.com/canikou/Bakumon-Assets/releases/download/modpack-1.4.1b/Bakumon-Legacy-1.4.1b.zip",
+      "size": 366333545,
+      "sha256": "d3821c65818e1c1caa2337b0d23978facd7e99e1a1544bf23fc0630d605fe5a5"
     }
   },
   "resourcepack": {
